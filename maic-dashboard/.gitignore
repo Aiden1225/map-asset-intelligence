@@ -1,0 +1,18 @@
+# [Project Specific]
+node_modules/
+.next/
+build/
+dist/
+
+# [Local Environment]
+.env
+.env.local
+.env.development.local
+
+# [Logs]
+*.log
+npm-debug.log*
+
+# [TypeScript]
+*.tsbuildinfo
+next-env.d.ts

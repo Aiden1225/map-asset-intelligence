@@ -1,0 +1,23 @@
+# [Dependencies]
+node_modules/
+.pnpm-store/
+
+# [Next.js Build]
+.next/
+out/
+
+# [Security - Zero-PII Policy]
+# Never commit environment variables or private keys
+.env*
+*.pem
+*.key
+
+# [Private Strategy & Docs]
+# Exclude internal risk and strategy documents
+docs/internal/
+*.private.md
+tax-strategy.md
+employment-risk.md
+
+# [OS]
+.DS_Store
